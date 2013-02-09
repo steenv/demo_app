@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# To ensure we use this specific gemfile when migrating to db, use this command "$ bundle exec rake db:migrate" instead of rake db:migrate
+
 gem 'rails', '3.2.11'
 
 # Bundle edge Rails instead:
